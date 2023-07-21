@@ -26,6 +26,9 @@ export default function Root() {
   return (
     <Html lang="zh-cn">
       <Head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4690058608545443"
+           crossorigin="anonymous">
+        </script>
         <PrefixTitle />
         <Meta charset="utf-8" />
         <Link rel="icon" type="image/svg+xml" href="/favicon.svg" />
