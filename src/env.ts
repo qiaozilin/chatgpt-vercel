@@ -6,8 +6,8 @@ import type { SimpleModel } from "./types"
  */
 export const defaultEnv = {
   CLIENT_GLOBAL_SETTINGS: {
-    APIKey: "",
-    password: "",
+    APIKey: "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",
+    password: "g8b8p4t3",
     enterToSend: true
   },
   CLIENT_SESSION_SETTINGS: {
@@ -29,7 +29,7 @@ export const defaultEnv = {
     "gpt-4": 32 * 1000
   } as Record<SimpleModel, number>,
   OPENAI_API_BASE_URL: "api.openai.com",
-  OPENAI_API_KEY: "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",
+  OPENAI_API_KEY: "",
   TIMEOUT: 30000,
   PASSWORD: "",
   SEND_KEY: "",
