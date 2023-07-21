@@ -49,12 +49,6 @@ export default function Header() {
         </Show>
       </div>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
-        <div
-          class="flex items-center text-2xl cursor-pointer"
-          onClick={() => {
-            scrollTo("main", -48)
-          }}
-        >
           <Show
             when={iconTitle().title}
             fallback={
@@ -74,10 +68,6 @@ export default function Header() {
                     src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
                   />
                 </a>
-                <a
-                  class="ml-2"
-                  href="https://github.com/ourongxing/chatgpt-vercel/fork"
-                >
                   <img
                     alt="GitHub forks badge"
                     src="https://img.shields.io/github/forks/ourongxing/chatgpt-vercel?logo=github"
