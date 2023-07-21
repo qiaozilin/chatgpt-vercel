@@ -1,4 +1,7 @@
 {
+  const googleAdsense = require('google-adsense')
+  const adCode = '<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4690058608545443"
+  crossorigin="anonymous"></script> -->';
   "name": "chatgpt-vercel",
   "version": "1.1.0",
   "description": "Elegant and Powerful. Powered by OpenAI and Vercel",
