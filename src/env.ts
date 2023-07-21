@@ -12,10 +12,10 @@ export const defaultEnv = {
   },
   CLIENT_SESSION_SETTINGS: {
     title: "",
-    saveSession: true,
+    saveSession: false,
     // 0-2
     APITemperature: 0.6,
-    continuousDialogue: true,
+    continuousDialogue: false,
     model: "gpt-3.5" as SimpleModel
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI Vercel
