@@ -31,7 +31,7 @@ export const defaultEnv = {
   OPENAI_API_BASE_URL: "api.openai.com",
   OPENAI_API_KEY: "",
   TIMEOUT: 30000,
-  PASSWORD: "g8b8p4t3",
+  PASSWORD: "",
   SEND_KEY: "",
   SEND_CHANNEL: 9,
   NO_GFW: false
